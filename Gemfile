@@ -16,9 +16,9 @@ end
 
 gem 'jquery-rails'
 gem 'therubyracer'
+gem 'activeadmin'
+gem 'cancan'
 
 group :production do
-  gem 'activeadmin'
-  gem 'cancan'
   gem 'pg', '0.12.2'
 end

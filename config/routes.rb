@@ -1,4 +1,6 @@
 Pipeline::Application.routes.draw do
+  resources :microposts
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
